@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://Netflix/baki-hanma</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="netiflix_landing/src/style.css">
+    <!--link do play e mylist-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--nâo sei☹☹☹-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+</head>
+
+
+<body>
+    
+    <header>
+
+        <a href="#" class="logo">
+            <img src="netiflix_landing/assets/logo.png" alt="netflix" width="160px" height="80">
+        </a>
+
+        <ul class="navigation" style="background-color: rgba(17, 16, 16, 0.479);">
+
+            <li><a href="sobre.html" target="_blank">Entrar</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Mais recentes</a></li>
+            <li><a href="#">Minha lista</a></li>
+            
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Pesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            
+        </div>
+
+    </header>
+
+
+    <div class="banner">
+
+        <picture>
+            <source media="(max-width: 900px)" srcset="\netiflix_landing\assets\bg.webp">
+            <img src="/netiflix_landing/assets/bg.jpg" class="bg" alt="baki">
+        </picture>
+
+        
+        <div class="content">
+
+            <img src="netiflix_landing/assets/name.png" alt="hanma" class="movieTitle">
+
+            <h4>
+                <span>2020</span>
+                <span><i>18+</i></span>
+                <span>2 Temporadas</span>
+                <span>Action</span>
+            </h4>
+
+            <p><strong>Baki Hanma (範馬 刃牙)</strong> é o protagonista da franquia Baki the Grappler. Ele aparenta ser um adolescente normal, até meio bobão à primeira vista, sendo brincalhão e descontraído com os amigos, mas isso esconde o monstro que ele realmente é: Um guerreiro que adora lutar, disposto a dar seu suor e sangue em troca da vitória. Seu objetivo não é nada mais, nada menos do que o de derrotar o seu pai: Yujiro Hanma, a criatura mais forte do mundo...
+            </p>
+
+            <div class="buttons">
+
+                <a href="netiflix_landing/assets/YUJIRO Defeats A Huge Monstrous Elephant With His Bare Hands Without Any Weapons__yujirohanma _baki(1080P_HD).mp4"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+
+            </div>
+
+        </div>
+
+        <a class="play" onclick="toggleVideo()">
+            <img src="netiflix_landing/assets/play.png" alt="play">
+            Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+
+        <video src="netiflix_landing/assets/Video.mp4" controls="true" width="900px"></video>
+        <img class="close" src="netiflix_landing/assets/close.png" alt="close" onclick="toggleVideo()" width="100">
+        </span>
+
+    </div>
+
+</body>
+    <script src="netiflix_landing/src/script.js"></script>
+</html>
